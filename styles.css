@@ -1,0 +1,207 @@
+header>img{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+#welcome{
+    display: grid;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 65px;
+}
+#info-1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 250px;
+}
+#promo {
+    color: rgb(198, 7, 7);
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+    font-size: 70px;
+}
+
+
+.navigation{
+    display: flex;
+    flex-flow: row;
+    margin-right: 5em; 
+    margin-left: 5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    cursor: pointer;
+    font-weight: bold; 
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-evenly;
+    color: rgb(0, 0, 4);
+    border: 1px solid black;
+    border-radius: 1em;
+    text-decoration: none;
+}
+
+a:link { text-decoration: none; }
+a:hover { text-decoration: none;
+    color: blue; }
+a:active { text-decoration: none; }
+
+
+.container {
+    display: grid;
+    grid-template-rows: 1.5fr 1fr;
+    background-color: rgb(103, 141, 110);
+}
+.row-1 {
+    display: grid; 
+    height: 100px;   
+}
+#order {
+    display: flex;  
+    border: solid;
+    color: rgb(246, 246, 252);
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 12px;
+    width: 300px;
+    background-color: blue;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.row-2 {
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    background-color: rgb(208, 228, 209);
+    text-align: center;
+    height: 600px;
+    list-style-type: none;
+    
+}
+
+    
+    
+    
+
+
+.row-2 p {
+    color: rgb(9, 87, 61);
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.row-2 div {
+    border-top: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+    border-radius: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(251, 231, 235);
+}
+#name {
+    text-align: center;
+}
+
+.footers{
+    display: grid;
+    grid-template-columns: (12, [col-start] 6fr); 
+    
+           
+}
+
+.item {
+    grid-column: 1;
+    
+}
+.copyright{
+    grid-column: 11;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       
+}
+
+
+
+
+
+#menu{
+    display: grid;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+#info {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.container1{
+    display: grid;
+    grid-template-rows: 170px 2fr;
+    background-color: rgb(103, 141, 110);
+}
+.row-3 {
+    height: 200px;
+}
+.row-4 {
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    background-color: rgb(208, 228, 209);
+    text-align: center;
+    height: 1300px;
+  
+}
+ul {
+    list-style-type: none;
+}
+
+#object2 {
+    object-fit: scale-down;
+    object-position: center top;
+    height: 100px;
+}
+.bio-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(103, 141, 110);  
+}
+#about {
+    display: grid; 
+    text-align: justify;
+    justify-content: left;
+}
+#about-img {
+    grid-column: 4;
+    justify-content: right;
+    
+}
+
+#homepage {
+    text-align: center;
+    margin: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+  
